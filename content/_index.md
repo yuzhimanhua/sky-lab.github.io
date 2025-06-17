@@ -1,49 +1,29 @@
 ---
 # Leave the homepage title empty to use the site title
-title: TAMU SKY Lab
+title:
 date: 2025-06-17
 type: landing
 
 sections:
   - block: contact
     content:
-      title: Contact
+      title: Overview
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-      email: test@example.org
-      phone: 888 888 88 88
+        The **Scientific Knowledge discoverY (SKY) Lab** at Texas A&M University, directed by Prof. [Yu Zhang](https://yuzhimanhua.github.io), focuses on data mining, natural language processing, and their applications in scientific literature analysis. Our long-term goal is to develop intelligent systems that can process, interpret, and analyze both textual and non-textual scientific data in a more human-like manner, thereby accelerating innovation across scientific disciplines.
+      email: yuzhang [AT] tamu [DOT] edu
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
+        street: 448 Peterson Building, 435 Nagle St
+        city: College Station
+        region: TX
+        postcode: '77843'
         country: United States
         country_code: US
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      appointment_url: 'https://calendly.com'
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
+        latitude: '30.616216288798974'
+        longitude: '-96.337819828066'
     
-      # Automatically link email and phone or display as text?
-      autolink: true
-    
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      autolink: false
+
     design:
       columns: '1'
 
