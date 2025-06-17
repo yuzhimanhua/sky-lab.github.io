@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yu Zhang
+title: [Yu Zhang](https://yuzhimanhua.github.io)
 
 # ID
 aid: 0
