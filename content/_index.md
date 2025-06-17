@@ -22,7 +22,7 @@ sections:
         latitude: '30.616216288798974'
         longitude: '-96.337819828066'
     
-      autolink: false
+      autolink: true
 
     design:
       columns: '1'
