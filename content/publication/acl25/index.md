@@ -18,7 +18,7 @@ publishDate: '2025-05-15T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: *ACL 2025*
+publication: ACL 2025
 
 # Display this page in the Featured widget?
 featured: false
@@ -32,3 +32,13 @@ url_slides: ''
 url_source: ''
 url_video: ''
 ---
+
+<!-- {{% callout note %}}
+Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
+
+{{% callout note %}}
+Create your slides in Markdown - click the _Slides_ button to check out the example.
+{{% /callout %}}
+
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
