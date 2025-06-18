@@ -1,6 +1,6 @@
 ---
 # Display name
-title: [Yu Zhang](https://yuzhimanhua.github.io)
+title: Yu Zhang
 
 # ID
 aid: 0
@@ -14,6 +14,11 @@ superuser: true
 
 # Role/position
 role: Assistant Professor
+
+# Organizations/Affiliations
+organizations:
+  - name: Texas A&M University
+    url: 'https://yuzhimanhua.github.io'
 
 social:
   - icon: envelope
