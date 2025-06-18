@@ -18,17 +18,12 @@ publishDate: '2025-05-15T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: ACL 2025
+publication: *ACL 2025*
 
 # Display this page in the Featured widget?
 featured: false
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: https://arxiv.org/abs/2505.16061
-
-url_pdf: ''
+url_pdf: 'https://arxiv.org/abs/2505.16061'
 url_code: ''
 url_dataset: 'https://huggingface.co/datasets/yuz9yuz/NLPImpact'
 url_poster: ''
@@ -38,7 +33,7 @@ url_source: ''
 url_video: ''
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
@@ -46,4 +41,4 @@ Click the _Cite_ button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the _Slides_ button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
