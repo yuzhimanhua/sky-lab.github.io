@@ -9,7 +9,7 @@ sections:
     content:
       title: 
       user_groups:
-          - Professor
+          - Principal Investigator
           - PhD Students
           - Visitors
       sort_by: Params.aid

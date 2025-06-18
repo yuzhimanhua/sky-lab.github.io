@@ -1,33 +1,31 @@
 ---
 # Display name
-title: Yu Zhang
+title: Hangxiao Zhu
 
 # ID
-aid: 0
+aid: 1
 
-# Full Name (for SEO)
-first_name: Yu
-last_name: Zhang
+# Full name (for SEO)
+first_name: Hangxiao
+last_name: Zhu
+
+# Username (this should match the folder name)
+authors:
+  - Hangxiao Zhu
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: Assistant Professor
+role: PhD Student (Spring 2025 - )
 
 social:
   - icon: circle-user
     icon_pack: far
-    link: https://yuzhimanhua.github.io
+    link: https://flypig23.github.io
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=N0PrmgIAAAAJ
-  - icon: x-twitter
-    icon_pack: fab
-    link: https://twitter.com/yuz9yuz
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/yuzhimanhua
+    link: https://scholar.google.com/citations?user=fmDa4U4AAAAJ
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -38,5 +36,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigator
+  - PhD Students
 ---
