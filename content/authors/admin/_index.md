@@ -16,8 +16,8 @@ superuser: true
 role: Assistant Professor
 
 social:
-  - icon: envelope
-    icon_pack: fas
+  - icon: circle-user
+    icon_pack: far
     link: https://yuzhimanhua.github.io
   - icon: google-scholar
     icon_pack: ai
