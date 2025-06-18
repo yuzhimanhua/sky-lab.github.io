@@ -11,7 +11,7 @@ sections:
       user_groups:
           - Principal Investigator
           - PhD Students
-          - Visitors
+          - Interns
       sort_by: Params.aid
       sort_ascending: true
     design:
