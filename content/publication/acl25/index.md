@@ -24,9 +24,9 @@ publication: ACL 2025
 featured: false
 
 # Custom links (uncomment lines below)
-links:
-- name: Custom Link
-  url: https://arxiv.org/abs/2505.16061
+# links:
+# - name: Custom Link
+#   url: https://arxiv.org/abs/2505.16061
 
 url_pdf: ''
 url_code: ''
