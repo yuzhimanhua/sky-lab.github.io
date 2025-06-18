@@ -9,8 +9,12 @@ aid: 0
 first_name: Yu
 last_name: Zhang
 
+# Username (this should match the folder name)
+authors:
+  - Yu Zhang
+
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Assistant Professor
