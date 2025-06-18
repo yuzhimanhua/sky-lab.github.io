@@ -5,6 +5,9 @@ title: Yu Zhang
 # ID
 aid: 0
 
+# Slug
+slug: https://yuzhimanhua.github.io
+
 # Full Name (for SEO)
 first_name: Yu
 last_name: Zhang
