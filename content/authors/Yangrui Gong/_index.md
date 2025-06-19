@@ -19,6 +19,14 @@ superuser: false
 # Role/position
 role: Undergraduate Student, UW-Madison (Summer 2025)
 
+social:
+  - icon: circle-user
+    icon_pack: far
+    link: https://gongyangrui.github.io
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/GongYangrui
+
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
 

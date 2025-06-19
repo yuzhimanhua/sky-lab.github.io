@@ -1,37 +1,31 @@
 ---
 # Display name
-title: Jiaqing Xie
+title: Xueqiang Xu
 
 # ID
-aid: 302
+aid: 303
 
 # Full Name (for SEO)
-first_name: Jiaqing
-last_name: Xie
+first_name: Xueqiang
+last_name: Xu
 
 # Username (this should match the folder name)
 authors:
-  - Jiaqing Xie
+  - Xueqiang Xu
 
 # Is this the primary user of the site?
 superuser: false
 
 social:
-  - icon: circle-user
-    icon_pack: far
-    link: https://jiaqingxie.github.io
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=Tfg7A2AAAAAJ
-  - icon: x-twitter
-    icon_pack: fab
-    link: https://x.com/jiaqing_xie
+    link: https://scholar.google.com/citations?user=YPYIX9EAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/jiaqingxie
+    link: https://github.com/Patrick-Xu-py
 
 # Role/position
-role: MSc Student, ETH Zurich (Summer 2025)
+role: MSc Student, UIUC (Summer 2025)
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
