@@ -1,20 +1,25 @@
 ---
 # Display name
-title: Hanson Tang
+title: Haixiang Tang
 
 # ID
 aid: 301
 
 # Full Name (for SEO)
-first_name: Hanson
+first_name: Haixiang
 last_name: Tang
 
 # Username (this should match the folder name)
 authors:
-  - Hanson Tang
+  - Haixiang Tang
 
 # Is this the primary user of the site?
 superuser: false
+
+social:
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/hansontang
 
 # Role/position
 role: Undergraduate Student, UIUC (Summer 2025)
