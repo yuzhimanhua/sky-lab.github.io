@@ -20,6 +20,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/hansontang
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=E6OQ4LYAAAAJ
 
 # Role/position
 role: "<span>Visiting BS Student, UIUC (Fall 2025 - )</span>"
