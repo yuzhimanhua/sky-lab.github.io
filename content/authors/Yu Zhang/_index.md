@@ -25,7 +25,7 @@ social:
     link: https://yuzhimanhua.github.io
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=pL5b-6IAAAAJ
+    link: https://scholar.google.com/citations?user=pL5b%2D6IAAAAJ
   - icon: x-twitter
     icon_pack: fab
     link: https://x.com/yuz9yuz
