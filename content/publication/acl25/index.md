@@ -4,7 +4,7 @@ title: 'Internal and External Impacts of Natural Language Processing Papers'
 authors:
   - Yu Zhang
 
-date: '2025-05-15T00:00:00Z'
+date: '2025-07-27T00:00:01Z'
 
 publishDate: '2020-01-01T00:00:00Z'
 
