@@ -29,10 +29,10 @@ publication: Findings of EMNLP 2025
 featured: false
 
 url_pdf: 'https://arxiv.org/abs/2502.17504'
-url_code: 'https://github.com/Yijia-Xiao/Protein-LLM-Survey'
+url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://github.com/Yijia-Xiao/Protein-LLM-Survey'
 url_slides: ''
 url_source: ''
 url_video: ''

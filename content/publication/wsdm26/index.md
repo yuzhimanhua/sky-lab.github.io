@@ -23,7 +23,7 @@ publication: WSDM 2026
 featured: false
 
 url_pdf: 'https://arxiv.org/abs/2509.23773'
-url_code: ''
+url_code: 'https://github.com/utkarshxsahu/kgc'
 url_dataset: ''
 url_poster: ''
 url_project: ''

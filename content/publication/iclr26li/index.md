@@ -12,7 +12,7 @@ authors:
   - James Zou
   - Pan Lu
 
-date: '2026-04-24T00:00:00Z'
+date: '2026-04-26T00:00:00Z'
 
 publishDate: '2020-01-01T00:00:00Z'
 
@@ -34,6 +34,4 @@ url_video: ''
 links:
   - name: Model
     url: 'https://huggingface.co/AgentFlow'
-  - name: Demo
-    url: 'https://huggingface.co/spaces/AgentFlow/agentflow'
 ---
