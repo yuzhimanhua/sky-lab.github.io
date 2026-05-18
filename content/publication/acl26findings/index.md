@@ -1,5 +1,5 @@
 ---
-title: 'SciImpact: A Multi-Dimensional%2C Multi-Field Benchmark for Scientific Impact Prediction'
+title: 'SciImpact: A Multi-Dimensional Multi-Field Benchmark for Scientific Impact Prediction'
 
 authors:
   - Hangxiao Zhu
