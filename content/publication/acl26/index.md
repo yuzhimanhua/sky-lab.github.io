@@ -1,5 +1,5 @@
 ---
-title: 'ReviewGrounder: Improving Review Substantiveness with Rubric-Guided, Tool-Integrated Agents'
+title: 'ReviewGrounder: Improving Review Substantiveness with Rubric-Guided%2C Tool-Integrated Agents'
 
 authors:
   - Zhuofeng Li
