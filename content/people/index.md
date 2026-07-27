@@ -13,7 +13,7 @@ sections:
           - PhD Students
           - Master's Students
           - Undergraduate Students
-          - Alumni
+          - Visiting Students
       sort_by: Params.aid
       sort_ascending: true
     design:
