@@ -3,7 +3,7 @@
 title: Khussal Pradhan
 
 # ID
-aid: 203
+aid: 202
 
 # Full Name (for SEO)
 first_name: Khussal
