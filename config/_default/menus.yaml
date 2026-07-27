@@ -7,9 +7,6 @@ main:
   - name: People
     url: people
     weight: 10
-  - name: Alumni
-    url: alumni
-    weight: 20
   - name: Publications
     url: publication
-    weight: 30
+    weight: 20
