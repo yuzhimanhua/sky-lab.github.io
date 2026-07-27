@@ -26,6 +26,9 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=fmDa4U4AAAAJ
+  - icon: x-twitter
+    icon_pack: fab
+    link: https://x.com/FlyPig23
   - icon: github
     icon_pack: fab
     link: https://github.com/FlyPig23

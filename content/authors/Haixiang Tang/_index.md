@@ -25,7 +25,7 @@ social:
     link: https://scholar.google.com/citations?user=E6OQ4LYAAAAJ
 
 # Role/position
-role: "<span>Visiting BS Student, UIUC (Fall 2025 - )</span>"
+role: "<span>BS Student, UIUC (Fall 2025 - )</span>"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

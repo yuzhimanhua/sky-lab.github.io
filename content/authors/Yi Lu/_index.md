@@ -28,7 +28,7 @@ social:
     link: https://github.com/EigenTom
 
 # Role/position
-role: "<span>Visiting MS Student, UToronto (Fall 2025 - )</span>"
+role: "<span>MS Student, UToronto (Fall 2025 - )</span>"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
