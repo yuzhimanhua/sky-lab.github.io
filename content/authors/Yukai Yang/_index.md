@@ -22,7 +22,7 @@ role: "<span>PhD Student, co-advised w/ Prof. Yang Shen (Fall 2026 - )</span>"
 social:
   - icon: circle-user
     icon_pack: far
-    link: https://yukaiyang0803.github.io/
+    link: https://yukaiyang0803.github.io
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

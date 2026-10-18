@@ -19,7 +19,7 @@ superuser: false
 social:
   - icon: circle-user
     icon_pack: far
-    link: https://oldwizard7.github.io/
+    link: https://oldwizard7.github.io
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=gLHYXFgAAAAJ

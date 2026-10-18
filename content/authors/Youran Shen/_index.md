@@ -19,7 +19,7 @@ superuser: false
 social:
   - icon: circle-user
     icon_pack: far
-    link: https://ieuze.com/
+    link: https://ieuze.com
 
 # Role/position
 role: "<span>BS Student (Fall 2025 - )</span>"
