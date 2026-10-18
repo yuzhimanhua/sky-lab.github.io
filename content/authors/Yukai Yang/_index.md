@@ -23,9 +23,6 @@ social:
   - icon: circle-user
     icon_pack: far
     link: https://yukaiyang0803.github.io/
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/YukaiYang0803
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

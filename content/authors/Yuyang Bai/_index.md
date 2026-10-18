@@ -29,9 +29,6 @@ social:
   - icon: x-twitter
     icon_pack: fab
     link: https://x.com/YuyangBai02
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/leopoldwhite
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

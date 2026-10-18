@@ -17,9 +17,9 @@ authors:
 superuser: false
 
 social:
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/hansontang
+  - icon: circle-user
+    icon_pack: far
+    link: https://hansontang.github.io/
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=E6OQ4LYAAAAJ

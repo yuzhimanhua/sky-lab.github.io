@@ -16,10 +16,7 @@ authors:
 # Is this the primary user of the site?
 superuser: false
 
-social:
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/CodeArtificial
+social: []
 
 # Role/position
 role: "<span>MS Student (Fall 2025 - )</span>"

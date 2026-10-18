@@ -23,9 +23,6 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=MrOZk28AAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/EigenTom
 
 # Role/position
 role: "<span>MS Student, UToronto (Fall 2025 - )</span>"

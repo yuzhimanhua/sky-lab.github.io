@@ -20,9 +20,6 @@ social:
   - icon: circle-user
     icon_pack: far
     link: https://khussalpradhan-520f32dcece8.herokuapp.com
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/khussalpradhan
 
 # Role/position
 role: "<span>MS Student (Spring 2026 - )</span>"

@@ -29,9 +29,6 @@ social:
   - icon: x-twitter
     icon_pack: fab
     link: https://x.com/zhuofengli96475
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/Zhuofeng-Li
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

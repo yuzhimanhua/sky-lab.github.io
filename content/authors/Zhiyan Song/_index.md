@@ -17,6 +17,9 @@ authors:
 superuser: false
 
 social:
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=hnDIa7AAAAAJ&hl=en
 
 # Role/position
 role: "<span>MS Student, co-advised w/ Prof. Yang Shen (Spring 2026 - )</span>"

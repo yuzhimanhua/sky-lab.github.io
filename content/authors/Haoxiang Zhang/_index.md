@@ -26,9 +26,6 @@ social:
   - icon: x-twitter
     icon_pack: fab
     link: https://x.com/GhxIsaac
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/IsaacGHX
 
 # Role/position
 role: "<span>MS Student, UCSD (Fall 2025 - )</span>"
