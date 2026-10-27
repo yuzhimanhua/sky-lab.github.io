@@ -96,10 +96,14 @@ def page(path, title, description, body, active=''):
 
 
 def author_list(authors, base):
-    return ', '.join(
-        f'<a class="lab-author" href="{base}people/#{MEMBERS[name]["id"]}">{esc(name)}</a>'
-        if name in MEMBERS else esc(name) for name in authors
-    )
+    links = []
+    for name in authors:
+        person = MEMBERS.get(name)
+        homepage = next((link['url'] for link in person['links'] if link['label'] == 'Website'), None) if person else None
+        destination = safe_url(homepage) if homepage else f'{base}people/'
+        classes = 'author-link lab-author' if person else 'author-link'
+        links.append(f'<a class="{classes}" href="{destination}">{esc(name)}</a>')
+    return ', '.join(links)
 
 
 def publication_item(publication, base):
@@ -132,7 +136,6 @@ def person_card(person, base, principal=False):
       <a class="portrait-link" href="{base}author/{person['id']}/" tabindex="-1" aria-hidden="true">{portrait(person, base, principal)}</a>
       <div class="person-info"><h3 class="person-name"><a href="{base}author/{person['id']}/">{esc(person['name'])}</a></h3>
         <p class="person-role">{esc(person['role'])}</p>
-        {'<p class="pi-description">Leading the Scientific Knowledge discoverY Lab at Texas A&amp;M University.</p>' if principal else ''}
         {resource_links(person['links'], 'person-links')}
       </div>
     </article>'''
@@ -154,7 +157,7 @@ def build_home():
         <g fill="#f8f7f4" stroke="#9b887c"><circle cx="159" cy="89" r="6"/><circle cx="367" cy="288" r="6"/><circle cx="213" cy="345" r="6"/></g>
         <g fill="#500000"><circle cx="82" cy="250" r="7"/><circle cx="325" cy="125" r="7"/><circle cx="231" cy="210" r="11"/></g>
         <circle cx="231" cy="210" r="20" stroke="#500000" stroke-opacity=".2"/>
-        <g fill="#75685f" font-family="system-ui,sans-serif" font-size="10" letter-spacing="2"><text x="116" y="65">LANGUAGE</text><text x="278" y="99">KNOWLEDGE</text><text x="172" y="377">DISCOVERY</text></g>
+        <g fill="#75685f" font-family="system-ui,sans-serif" font-size="24" letter-spacing="1"><text x="95" y="65">LANGUAGE</text><text x="270" y="99">KNOWLEDGE</text><text x="155" y="377">DISCOVERY</text></g>
       </svg><div class="research-tags"><span>Data mining</span><span>Natural language processing</span><span>AI for science</span></div></div>
     </section>
     <figure class="home-photo">
@@ -163,10 +166,6 @@ def build_home():
       </a>
       <figcaption>{esc(SITE['home_photo']['caption'])}</figcaption>
     </figure>
-    <section class="home-research" aria-labelledby="about-heading">
-      <div class="section-heading"><p class="eyebrow">About the lab</p><h2 id="about-heading">Connecting ideas.<br>Discovering what’s next.</h2></div>
-      <div class="lab-note"><p>{esc(SITE['description'])}</p><a class="text-link" href="{safe_url(SITE['pi_url'])}" target="_blank" rel="noopener noreferrer">About Prof. Yu Zhang <span aria-hidden="true">↗</span></a></div>
-    </section>
     <section class="recent-publications" aria-labelledby="recent-heading">
       <div class="section-heading"><div><p class="eyebrow">From our group</p><h2 id="recent-heading">Recent publications</h2></div>
         <a class="text-link" href="./publication/">All publications <span aria-hidden="true">→</span></a></div>
