@@ -5,3 +5,12 @@
 /resources/
 public/
 assets/jsconfig.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Static pages are regenerated from data/; keep site/assets/ as source.
+/site/**/*.html
+/site/.generated-pages.json
+/site/.nojekyll

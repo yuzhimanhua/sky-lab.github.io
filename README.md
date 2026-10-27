@@ -1,48 +1,47 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+# SKY Lab website
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+A small static website for the group's people and publications. The build uses Python 3.12 and its standard library; no packages, Hugo, Go, or Node.js are required.
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+## Update content
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+Edit the JSON files in `data/`, following the structure of an existing entry:
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+- `site.json`: group name, introduction, and site settings.
+- `people.json`: members and their profile links.
+- `publications.json`: papers, authors, publication dates, venues, and resource links.
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+Keep JSON valid: use double quotes and do not add trailing commas. Build and check the site after each update:
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
+```sh
+python scripts/build.py
+python scripts/check_site.py
+python -m unittest discover -s tests
+```
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+## Preview locally
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+```sh
+python -m http.server 8000 --directory site
+```
 
-## We ask you, humbly, to support this open source movement
+Open <http://localhost:8000/>. Stop the server with Ctrl+C. After changing the data, rerun the build and refresh the browser.
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+## Publish
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+Push changes to `main`. The **Build and deploy website** GitHub Actions workflow builds, checks, and deploys `site/` to GitHub Pages. Pull requests run the same build and checks without deploying. You can also run the workflow manually from the Actions tab.
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+Commit the edited JSON, scripts, or assets. Generated HTML is ignored by Git and recreated automatically during deployment.
 
-## Demo credits
+In the repository's **Settings → Pages**, set the source to **GitHub Actions**. The optional Netlify configuration also builds and publishes `site/`.
 
-Please replace the demo images with your own.
+## Files
 
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+- `data/`: editable site content.
+- `scripts/build.py`: generates the static HTML.
+- `scripts/check_site.py`: checks the generated site.
+- `site/`: website served by GitHub Pages; rebuild its generated HTML from the data.
+- `site/assets/`: CSS, JavaScript, and portraits used by the site.
+- `tests/`: regression checks for content updates and generated-page cleanup.
+- `.github/workflows/publish.yaml`: the single build and deployment workflow.
+
+The previous Hugo content and configuration remain in the repository as migration reference. The new build does not use them.

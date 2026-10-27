@@ -1,0 +1,467 @@
+[
+  {
+    "id": "emnlp26li",
+    "title": "OpenResearcher: A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis",
+    "authors": [
+      "Zhuofeng Li",
+      "Dongfu Jiang",
+      "Xueguang Ma",
+      "Haoxiang Zhang",
+      "Ping Nie",
+      "Yuyu Zhang",
+      "Kai Zou",
+      "Jianwen Xie",
+      "Yu Zhang",
+      "Wenhu Chen"
+    ],
+    "date": "2026-10-01T00:00:02Z",
+    "venue": "EMNLP 2026",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2603.20278"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/TIGER-AI-Lab/OpenResearcher"
+      },
+      {
+        "label": "Dataset",
+        "url": "https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset"
+      },
+      {
+        "label": "Model",
+        "url": "https://huggingface.co/OpenResearcher/OpenResearcher-30B-A3B"
+      }
+    ]
+  },
+  {
+    "id": "emnlp26zhang",
+    "title": "Masking Stale Observations Helps Search Agents – Until It Doesn’t: A Regime Map and Its Mechanism",
+    "authors": [
+      "Haoxiang Zhang",
+      "Qixin Xu",
+      "Zhuofeng Li",
+      "Lei Zhang",
+      "Pengcheng Jiang",
+      "Yu Zhang",
+      "Julian McAuley"
+    ],
+    "date": "2026-10-01T00:00:01Z",
+    "venue": "EMNLP 2026",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2606.00408"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/i-DeepSearch/observation-masking"
+      }
+    ]
+  },
+  {
+    "id": "emnlp26findings",
+    "title": "Building Long-Term LLM Memory with Neo-Davidsonian Discourse Units",
+    "authors": [
+      "Sizhe Zhou",
+      "Yanzhen Shen",
+      "Siru Ouyang",
+      "Yuyang Bai",
+      "Yiheng Shu",
+      "Yu Zhang",
+      "Jiawei Han"
+    ],
+    "date": "2026-10-01T00:00:00Z",
+    "venue": "Findings of EMNLP 2026",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://aclanthology.org/2026.findings-emnlp.924/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/KevinSRR/EMem"
+      }
+    ]
+  },
+  {
+    "id": "tist26",
+    "title": "Improving Scientific Document Retrieval with Academic Concept Index",
+    "authors": [
+      "Jeyun Lee",
+      "Junhyoung Lee",
+      "Wonbin Kweon",
+      "Bowen Jin",
+      "Yu Zhang",
+      "Susik Yoon",
+      "Dongha Lee",
+      "Hwanjo Yu",
+      "Jiawei Han",
+      "SeongKu Kang"
+    ],
+    "date": "2026-09-01T00:00:00Z",
+    "venue": "ACM TIST 2026",
+    "type": "journal",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2601.00567"
+      }
+    ]
+  },
+  {
+    "id": "kdd26zhu",
+    "title": "MemeBridge: A Dataset for Benchmarking and Mitigating the Bidirectional Cultural Gap in Meme Interpretation",
+    "authors": [
+      "Hangxiao Zhu",
+      "Suliu Qin",
+      "Zhuoyan Li",
+      "Ming Jiang",
+      "Yu Zhang",
+      "Meng Xia"
+    ],
+    "date": "2026-08-09T00:00:02Z",
+    "venue": "KDD 2026",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2609.00491"
+      },
+      {
+        "label": "Project",
+        "url": "https://flypig23.github.io/memebridge-homepage"
+      }
+    ]
+  },
+  {
+    "id": "kdd26qi",
+    "title": "Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation (RAG)",
+    "authors": [
+      "Zhisheng Qi",
+      "Utkarsh Sahu",
+      "Li Ma",
+      "Haoyu Han",
+      "Ryan Rossi",
+      "Franck Dernoncourt",
+      "Mahantesh Halappanavar",
+      "Nesreen Ahmed",
+      "Yushun Dong",
+      "Yue Zhao",
+      "Yu Zhang",
+      "Yu Wang"
+    ],
+    "date": "2026-08-09T00:00:01Z",
+    "venue": "KDD 2026",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2602.09319"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/charlieqi02/RAG-Knowledge-Extraction-Attack-and-Defense-Benchmark"
+      }
+    ]
+  },
+  {
+    "id": "acl26",
+    "title": "ReviewGrounder: Improving Review Substantiveness with Rubric-Guided Tool-Integrated Agents",
+    "authors": [
+      "Zhuofeng Li",
+      "Yi Lu",
+      "Dongfu Jiang",
+      "Haoxiang Zhang",
+      "Yuyang Bai",
+      "Chuan Li",
+      "Yu Wang",
+      "Shuiwang Ji",
+      "Jianwen Xie",
+      "Yu Zhang"
+    ],
+    "date": "2026-07-02T00:00:01Z",
+    "venue": "ACL 2026",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2604.14261"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/EigenTom/ReviewGrounder"
+      },
+      {
+        "label": "Project",
+        "url": "https://eigentom.github.io/ReviewGrounder"
+      }
+    ]
+  },
+  {
+    "id": "acl26findings",
+    "title": "SciImpact: A Multi-Dimensional Multi-Field Benchmark for Scientific Impact Prediction",
+    "authors": [
+      "Hangxiao Zhu",
+      "Yuyu Zhang",
+      "Ping Nie",
+      "Yu Zhang"
+    ],
+    "date": "2026-07-02T00:00:00Z",
+    "venue": "Findings of ACL 2026",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2604.17141"
+      },
+      {
+        "label": "Dataset",
+        "url": "https://github.com/FlyPig23/SciImpact"
+      },
+      {
+        "label": "Project",
+        "url": "https://flypig23.github.io/sciimpact-homepage"
+      }
+    ]
+  },
+  {
+    "id": "iclr26li",
+    "title": "In-the-Flow Agentic System Optimization for Effective Planning and Tool Use",
+    "authors": [
+      "Zhuofeng Li",
+      "Haoxiang Zhang",
+      "Seungju Han",
+      "Sheng Liu",
+      "Jianwen Xie",
+      "Yu Zhang",
+      "Yejin Choi",
+      "James Zou",
+      "Pan Lu"
+    ],
+    "date": "2026-04-23T00:00:02Z",
+    "venue": "ICLR 2026",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2510.05592"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/lupantech/AgentFlow"
+      },
+      {
+        "label": "Project",
+        "url": "https://agentflow.stanford.edu"
+      },
+      {
+        "label": "Model",
+        "url": "https://huggingface.co/AgentFlow"
+      }
+    ]
+  },
+  {
+    "id": "iclr26parashar",
+    "title": "Curriculum Reinforcement Learning from Easy to Hard Tasks Improves LLM Reasoning",
+    "authors": [
+      "Shubham Parashar",
+      "Shurui Gui",
+      "Xiner Li",
+      "Hongyi Ling",
+      "Sushil Vemuri",
+      "Blake Olson",
+      "Eric Li",
+      "Yu Zhang",
+      "James Caverlee",
+      "Dileep Kalathil",
+      "Shuiwang Ji"
+    ],
+    "date": "2026-04-23T00:00:01Z",
+    "venue": "ICLR 2026",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2506.06632"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/divelab/E2H-Reasoning"
+      }
+    ]
+  },
+  {
+    "id": "iclr26chen",
+    "title": "RM-R1: Reward Modeling as Reasoning",
+    "authors": [
+      "Xiusi Chen",
+      "Gaotang Li",
+      "Ziqi Wang",
+      "Bowen Jin",
+      "Cheng Qian",
+      "Yu Wang",
+      "Hongru Wang",
+      "Yu Zhang",
+      "Denghui Zhang",
+      "Tong Zhang",
+      "Hanghang Tong",
+      "Heng Ji"
+    ],
+    "date": "2026-04-23T00:00:00Z",
+    "venue": "ICLR 2026",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2505.02387"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/RM-R1-UIUC/RM-R1"
+      },
+      {
+        "label": "Project",
+        "url": "https://rm-r1-uiuc.github.io/rmr1-site"
+      },
+      {
+        "label": "Model",
+        "url": "https://huggingface.co/collections/gaotang/rm-r1"
+      }
+    ]
+  },
+  {
+    "id": "wsdm26",
+    "title": "Knowledge Homophily in Large Language Models",
+    "authors": [
+      "Utkarsh Sahu",
+      "Zhisheng Qi",
+      "Mahantesh Halappanavar",
+      "Nedim Lipka",
+      "Ryan A. Rossi",
+      "Franck Dernoncourt",
+      "Yu Zhang",
+      "Yao Ma",
+      "Yu Wang"
+    ],
+    "date": "2026-02-22T00:00:00Z",
+    "venue": "WSDM 2026",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2509.23773"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/utkarshxsahu/kgc"
+      }
+    ]
+  },
+  {
+    "id": "emnlp25findings",
+    "title": "Protein Large Language Models: A Comprehensive Survey",
+    "authors": [
+      "Yijia Xiao",
+      "Wanjia Zhao",
+      "Junkai Zhang",
+      "Yiqiao Jin",
+      "Han Zhang",
+      "Zhicheng Ren",
+      "Renliang Sun",
+      "Haixin Wang",
+      "Guancheng Wan",
+      "Pan Lu",
+      "Xiao Luo",
+      "Yu Zhang",
+      "James Zou",
+      "Yizhou Sun",
+      "Wei Wang"
+    ],
+    "date": "2025-11-04T00:00:00Z",
+    "venue": "Findings of EMNLP 2025",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2502.17504"
+      },
+      {
+        "label": "Project",
+        "url": "https://github.com/Yijia-Xiao/Protein-LLM-Survey"
+      }
+    ]
+  },
+  {
+    "id": "acl25",
+    "title": "Internal and External Impacts of Natural Language Processing Papers",
+    "authors": [
+      "Yu Zhang"
+    ],
+    "date": "2025-07-27T00:00:01Z",
+    "venue": "ACL 2025",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2505.16061"
+      },
+      {
+        "label": "Dataset",
+        "url": "https://huggingface.co/datasets/yuz9yuz/NLPImpact"
+      }
+    ]
+  },
+  {
+    "id": "acl25findings",
+    "title": "A Unified Taxonomy-Guided Instruction Tuning Framework for Entity Set Expansion and Taxonomy Expansion",
+    "authors": [
+      "Yanzhen Shen",
+      "Yu Zhang",
+      "Yunyi Zhang",
+      "Jiawei Han"
+    ],
+    "date": "2025-07-27T00:00:00Z",
+    "venue": "Findings of ACL 2025",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2402.13405"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/yanzhen4/TaxoInstruct"
+      }
+    ]
+  },
+  {
+    "id": "www25",
+    "title": "Chain-of-Factors Paper-Reviewer Matching",
+    "authors": [
+      "Yu Zhang",
+      "Yanzhen Shen",
+      "SeongKu Kang",
+      "Xiusi Chen",
+      "Bowen Jin",
+      "Jiawei Han"
+    ],
+    "date": "2025-04-28T00:00:00Z",
+    "venue": "WWW 2025",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2310.14483"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/yuzhimanhua/CoF"
+      }
+    ]
+  }
+]

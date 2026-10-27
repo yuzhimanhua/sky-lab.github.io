@@ -1,0 +1,235 @@
+[
+  {
+    "id": "yu-zhang",
+    "name": "Yu Zhang",
+    "order": 0,
+    "group": "Principal Investigator",
+    "role": "Assistant Professor",
+    "image": "assets/people/yu-zhang.jpg",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://yuzhimanhua.github.io"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=pL5b%2D6IAAAAJ"
+      },
+      {
+        "label": "X",
+        "url": "https://x.com/yuz9yuz"
+      }
+    ]
+  },
+  {
+    "id": "hangxiao-zhu",
+    "name": "Hangxiao Zhu",
+    "order": 1,
+    "group": "PhD Students",
+    "role": "PhD Student (Spring 2025 - )",
+    "image": "assets/people/hangxiao-zhu.jpg",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://flypig23.github.io"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=fmDa4U4AAAAJ"
+      },
+      {
+        "label": "X",
+        "url": "https://x.com/FlyPig23"
+      }
+    ]
+  },
+  {
+    "id": "yuyang-bai",
+    "name": "Yuyang Bai",
+    "order": 2,
+    "group": "PhD Students",
+    "role": "PhD Student (Fall 2025 - )",
+    "image": "assets/people/yuyang-bai.jpg",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://yuyangbai.com"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=J2O6M1AAAAAJ"
+      },
+      {
+        "label": "X",
+        "url": "https://x.com/YuyangBai02"
+      }
+    ]
+  },
+  {
+    "id": "zhuofeng-li",
+    "name": "Zhuofeng Li",
+    "order": 3,
+    "group": "PhD Students",
+    "role": "PhD Student (Fall 2025 - )",
+    "image": "assets/people/zhuofeng-li.jpg",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://zhuofeng-li.github.io"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=V3ZBIT4AAAAJ"
+      },
+      {
+        "label": "X",
+        "url": "https://x.com/zhuofengli96475"
+      }
+    ]
+  },
+  {
+    "id": "yukai-yang",
+    "name": "Yukai Yang",
+    "order": 4,
+    "group": "PhD Students",
+    "role": "PhD Student, co-advised w/ Prof. Yang Shen (Fall 2026 - )",
+    "image": "assets/people/yukai-yang.jpg",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://yukaiyang0803.github.io"
+      }
+    ]
+  },
+  {
+    "id": "duc-nguyen",
+    "name": "Duc Nguyen",
+    "order": 200,
+    "group": "Master's Students",
+    "role": "MS Student (Fall 2025 - )",
+    "image": "assets/people/duc-nguyen.jpg",
+    "links": []
+  },
+  {
+    "id": "zhiyan-song",
+    "name": "Zhiyan Song",
+    "order": 201,
+    "group": "Master's Students",
+    "role": "MS Student, co-advised w/ Prof. Yang Shen (Spring 2026 - )",
+    "image": "assets/people/zhiyan-song.jpg",
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=hnDIa7AAAAAJ&hl=en"
+      }
+    ]
+  },
+  {
+    "id": "khussal-pradhan",
+    "name": "Khussal Pradhan",
+    "order": 202,
+    "group": "Master's Students",
+    "role": "MS Student (Spring 2026 - )",
+    "image": "assets/people/khussal-pradhan.jpg",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://khussalpradhan-520f32dcece8.herokuapp.com"
+      }
+    ]
+  },
+  {
+    "id": "youran-shen",
+    "name": "Youran Shen",
+    "order": 400,
+    "group": "Undergraduate Students",
+    "role": "BS Student (Fall 2025 - )",
+    "image": "assets/people/youran-shen.jpg",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://ieuze.com"
+      }
+    ]
+  },
+  {
+    "id": "yi-lu",
+    "name": "Yi Lu",
+    "order": 601,
+    "group": "Visiting Students",
+    "role": "MS Student, UToronto (Fall 2025 - )",
+    "image": "assets/people/yi-lu.jpg",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://eigentom.github.io"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=MrOZk28AAAAJ"
+      }
+    ]
+  },
+  {
+    "id": "haoxiang-zhang",
+    "name": "Haoxiang Zhang",
+    "order": 602,
+    "group": "Visiting Students",
+    "role": "MS Student, UCSD (Fall 2025 - )",
+    "image": "assets/people/haoxiang-zhang.jpg",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://isaacghx.github.io/about"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=aSECxkkAAAAJ"
+      },
+      {
+        "label": "X",
+        "url": "https://x.com/GhxIsaac"
+      }
+    ]
+  },
+  {
+    "id": "haixiang-tang",
+    "name": "Haixiang Tang",
+    "order": 603,
+    "group": "Visiting Students",
+    "role": "BS Student, UIUC (Fall 2025 - )",
+    "image": "assets/people/haixiang-tang.jpg",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://hansontang.github.io"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=E6OQ4LYAAAAJ"
+      }
+    ]
+  },
+  {
+    "id": "chenyi-tong",
+    "name": "Chenyi Tong",
+    "order": 604,
+    "group": "Visiting Students",
+    "role": "MS Student, UW-Madison (Summer 2026 - )",
+    "image": "assets/people/chenyi-tong.jpg",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://oldwizard7.github.io"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=gLHYXFgAAAAJ"
+      },
+      {
+        "label": "X",
+        "url": "https://twitter.com/cytong77"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "SKY Lab",
+  "full_name": "Scientific Knowledge discoverY Lab",
+  "university": "Texas A&M University",
+  "department": "Computer Science & Engineering",
+  "description": "The Scientific Knowledge discoverY (SKY) Lab at Texas A&M University, directed by Prof. Yu Zhang, focuses on data mining, natural language processing, and their applications in scientific literature analysis. Our long-term goal is to develop intelligent systems that can process, interpret, and analyze both textual and non-textual scientific data in a more human-like manner, thereby accelerating innovation across scientific disciplines.",
+  "email": "yuzhang@tamu.edu",
+  "pi_url": "https://yuzhimanhua.github.io/",
+  "logo": {
+    "image": "assets/branding/sky-lab-logo.png",
+    "width": 1254,
+    "height": 1254
+  },
+  "home_photo": {
+    "image": "assets/photos/texas-nlp-symposium-2026.jpg",
+    "width": 6000,
+    "height": 3368,
+    "alt": "SKY Lab group sharing a meal at Texas NLP Symposium 2026.",
+    "caption": "Texas NLP Symposium 2026, photo credit: Chunli Peng"
+  },
+  "address": {
+    "street": "448 Peterson Building, 435 Nagle St",
+    "city": "College Station",
+    "region": "TX",
+    "postcode": "77843",
+    "country": "United States",
+    "country_code": "US"
+  }
+}
