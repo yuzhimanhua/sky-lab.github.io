@@ -1,10 +1,8 @@
-# IDEs
+# Editor and operating-system files
 .idea/
-
-# Hugo
-/resources/
-public/
-assets/jsconfig.json
+.DS_Store
+Thumbs.db
+Desktop.ini
 
 # Python
 __pycache__/
